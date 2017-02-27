@@ -8,7 +8,7 @@ else
 end
 
 version "0.12.0" do
-  source md5: "298159e24792962b393ea097e31c57a8"
+  source md5: "2a04e4f02de90b7bbd94e581afb73c8f"
 end
 
 source :url => "https://yumtesting.datad0g.com/testremi/jmxfetch-#{version}-jar-with-dependencies.jar"
