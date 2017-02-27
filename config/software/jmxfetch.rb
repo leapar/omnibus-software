@@ -1,10 +1,10 @@
 name 'jmxfetch'
 
-jmx_branch = ENV['JMX_VERSION']
-if jmx_branch.nil? || jmx_branch.empty?
+jmx_version = ENV['JMX_VERSION']
+if jmx_version.nil? || jmx_version.empty?
   default_version '0.12.0'
 else
-  default_version jmx_branch
+  default_version jmx_version
 end
 
 version "0.12.0" do
